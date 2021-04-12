@@ -12,7 +12,7 @@ package:
 
 functions:
   tasks-api:
-    handler: com.serverless.Handler
+    handler: com.impact.Handler
     events:
       - http:
           path: tasks
