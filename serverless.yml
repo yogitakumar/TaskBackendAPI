@@ -11,8 +11,8 @@ package:
   artifact: target/tasks-api-java-dev.jar
 
 functions:
-  tasks-api:
-    handler: com.impact.Handler
+  get-tasks-java-api:
+    handler: com.impact.GetTasksHandler
     events:
       - http:
           path: /users/{userId}/tasks
